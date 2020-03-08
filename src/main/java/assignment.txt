@@ -1,0 +1,16 @@
+Introduction to Classes and members part1
+Assignment II
+
+1. Private and protected are not allowed as class access modifiers, they give error. Only public, Abstract and Final are allowed.
+
+3. Private access modifier on the inner class only allows it to be visible inside the class. Protected access modifier allows it to be visible in all classes across the package.
+
+Assignment III
+
+3. the Private variable can only be accessed from inside the class where it is declared. the other three can be accessed by all classes in the same package. From another package a subclass can access Public and Protected Variables and all other classes can access only Public variable
+
+
+Assignment II part II
+
+3. final variable MAXPHONES needs to be initialized when declared. Could not be initialized via a constructor. 
+4. final variable MAXPHONES could be accessed by an object of the class but not ClassName

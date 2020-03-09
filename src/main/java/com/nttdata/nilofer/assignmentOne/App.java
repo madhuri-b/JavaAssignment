@@ -1,9 +1,12 @@
 package com.nttdata.nilofer.assignmentOne;
 
+
 public class App {
 	public static void main(String[] args) {
 
 		// creating an instance of CustomerClass
+	//CustomerClass customer3 = new CustomerClass();
+	
 		CustomerClass customer = new CustomerClass();
 		CustomerClass customer2 = new CustomerClass();
 
@@ -37,8 +40,7 @@ public class App {
 		// increment the custCount
 		customer.custCount++;
 
-		System.out.println("value of Customer Count as accessed from Classname after first increment is : "
-				+ CustomerClass.custCount++);
+		System.out.println("value of Customer Count as accessed from Classname after first increment is : " + CustomerClass.custCount++);
 		System.out.println(
 				"value of Customer Count as acessed from first obj after second increment is : " + customer.custCount);
 		System.out.println("value of Customer Count as acessed from second obj after second increment is : "
@@ -46,6 +48,7 @@ public class App {
 
 		// print MAXPHONES
 		System.out.println("MAXPHONES accessed via object is " + customer.MAXPHONES);
+		
 		EmployeeClass employee = new EmployeeClass();
 		employee.setEmpId(1001);
 		employee.printEmpId();
